@@ -16,9 +16,7 @@ if (-Not (Test-Path $logsDir)) {
 }
 
 Write-Host "Bringing up containers (build)..."
-# docker compose up -d --build
-# docker compose build --no-cache
-# docker compose up -d
+
 
 Write-Host "Starting log capture jobs (output -> $logsDir)"
 

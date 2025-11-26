@@ -1,0 +1,19 @@
+.env
+
+.env.prod
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual env
+.venv/
+venv/
+
+# Editor
+.vscode/
+*.swp
+
+# OS
+.DS_Store
